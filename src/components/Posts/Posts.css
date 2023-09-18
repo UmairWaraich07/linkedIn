@@ -1,0 +1,37 @@
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-block: 8px;
+  background-color: #fff;
+  padding: 15px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+.posts__header {
+  display: flex;
+  gap: 8px;
+}
+.posts__info > h4 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.posts__info > p {
+  font-size: 10px;
+  color: gray;
+  font-weight: 300;
+}
+.posts__message {
+  font-size: 13px;
+  opacity: 0.8;
+}
+.posts__body {
+  overflow-wrap: anywhere;
+}
+.posts__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

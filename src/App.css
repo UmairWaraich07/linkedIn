@@ -1,0 +1,13 @@
+.app {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f2ef;
+  min-height: 100vh;
+}
+.app__body {
+  background-color: #f3f2ef;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  padding-top: 20px;
+  position: relative;
+}

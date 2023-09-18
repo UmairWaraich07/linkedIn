@@ -1,0 +1,45 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  justify-content: space-evenly;
+  z-index: 999;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.header__left-logo {
+  object-fit: contain;
+  width: 30px;
+}
+
+.header__left-input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #eef3f8;
+  color: gray;
+  padding: 3px 12px;
+  border-radius: 6px;
+}
+.header__left-input > input {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  outline-width: 0;
+}
+.header__left-input > input:hover,
+.header__left-input > input :focus-within {
+  outline: none;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,29 @@
+.headerOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.headerOption > h4 {
+  font-size: 10px;
+  font-weight: 300;
+}
+.headerOption__icon {
+  font-size: 20px !important;
+}
+.headerOption:hover {
+  color: black;
+}
+.headerOption__avatar {
+  object-fit: contain;
+  /* font-size: 20px !important; */
+  width: 20px !important;
+  height: 20px !important;
+}
+.active {
+  /* text-decoration: underline; */
+  color: black;
+  border-bottom: 1.5px solid black;
+}

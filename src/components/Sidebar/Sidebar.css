@@ -1,0 +1,112 @@
+.sidebar {
+  position: sticky;
+  top: 60px;
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+.sidebar__top {
+  text-align: center;
+  border: 0.1px solid lightgray;
+  border-bottom: 0;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+.sidebar__top-img {
+  object-fit: cover;
+  height: 53px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.sidebar__top-logo {
+  display: block;
+  margin: auto;
+  width: 60px !important;
+  height: 60px !important;
+  object-fit: contain;
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
+.sidebar__top-name {
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+.sidebar__top-description {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.sidebar__stats {
+  padding: 10px;
+  border: 0.1px solid lightgray;
+  border-bottom: 0;
+  background-color: #fff;
+}
+
+.sidebar__stat {
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar__stat > p {
+  font-size: 13px;
+  color: gray;
+}
+
+.sidebar__stat-number {
+  color: #0a66c2 !important;
+  font-weight: bold;
+}
+
+.sidebar__items {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  gap: 10px;
+  color: gray;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+.sidebar__items > p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.sidebar__items-icon {
+  font-size: 20px !important;
+}
+
+.sidebar__bottom {
+  margin-top: 8px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+}
+.sidebar__bottom > h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.sidebar__recent {
+  color: gray;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.925rem;
+}
+.sidebar__recent > span {
+  margin-right: 5px;
+}
+.sidebar__recent:hover {
+  color: black;
+  background-color: whitesmoke;
+}
